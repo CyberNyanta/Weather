@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="false"
+    android:layout_centerVertical="false"
+    android:padding="@dimen/town_item_margin"
+    android:layout_margin="@dimen/town_item_margin"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/weather_icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/com_facebook_button_icon_blue" />
+
+        <TextView
+            android:id="@+id/temperature_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            tools:text="30c" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/town_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/town_item_name_margin"
+        tools:text="TownName"
+        android:textSize="@dimen/town_item_name_fontSize" />
+</android.widget.LinearLayout>

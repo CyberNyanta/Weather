@@ -1,3 +1,23 @@
 <resources>
     <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="text_small">12sp</dimen>
+    <dimen name="text_medium">14sp</dimen>
+    <dimen name="text_large">16sp</dimen>
+
+    <dimen name="text_login_app_name">40sp</dimen>
+
+    <dimen name="layout_small">6dp</dimen>
+    <dimen name="layout_medium">12dp</dimen>
+    <dimen name="layout_large">18dp</dimen>
+
+
+    <dimen name="town_item_margin">10dp</dimen>
+    <dimen name="town_item_name_margin">10dp</dimen>
+    <dimen name="town_item_name_fontSize">26sp</dimen>
+
+    <dimen name="button_large_height">70dp</dimen>
+    <dimen name="auth_img_logo_margin_bottom">18dp</dimen>
+    <dimen name="auth_btn_sign_in_margin_bottom">6dp</dimen>
+    <dimen name="auth_app_label_margin_bottom">50dp</dimen>
 </resources>
