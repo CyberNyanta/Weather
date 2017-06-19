@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.siianko.weather.screen.SettingsActivity"
+    tools:context="com.siianko.weather.screen.settings.SettingsActivity"
     tools:showIn="@layout/activity_settings">
     <Button
         android:id="@+id/btn_logout"
@@ -17,6 +17,7 @@
         android:textColor="@color/white"
         android:textSize="@dimen/text_large"
         android:theme="@style/ButtonFacebook"
+        android:drawableLeft="@mipmap/ic_facebook"
         android:layout_marginLeft="16dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"

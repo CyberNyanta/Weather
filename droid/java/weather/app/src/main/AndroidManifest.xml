@@ -3,6 +3,7 @@
     package="com.siianko.weather">
 
     <application
+        android:name=".App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -17,10 +18,13 @@
             android:value="AIzaSyCDBDy6yi8StlEBOP-rngqRVK0V9DAF1HU" />
 
         <uses-permission android:name="android.permission.INTERNET" />
+        <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+        <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
+        <uses-feature android:name="android.hardware.location.gps" />
         <activity
-            android:name=".screen.LoginActivity"
-            android:label="@string/title_activity_login"
+            android:name=".screen.auth.LoginActivity"
+            android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -49,7 +53,7 @@
             android:label="@string/title_activity_cities"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".screen.SettingsActivity"
+            android:name=".screen.settings.SettingsActivity"
             android:label="@string/title_activity_settings"
             android:theme="@style/AppTheme" />
     </application>

@@ -11,7 +11,7 @@
     android:paddingLeft="@dimen/layout_large"
     android:paddingRight="@dimen/layout_large"
     android:paddingTop="@dimen/layout_medium"
-    tools:context="com.siianko.weather.screen.LoginActivity">
+    tools:context="com.siianko.weather.screen.auth.LoginActivity">
 
     <com.facebook.login.widget.LoginButton
         android:id="@+id/login_button"

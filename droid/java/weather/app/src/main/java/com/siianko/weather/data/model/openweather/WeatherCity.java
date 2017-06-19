@@ -4,8 +4,8 @@ import android.support.annotation.NonNull;
 
 public class WeatherCity {
 
-    private final int mCityId;
-    private final String mCityName;
+    private int mCityId;
+    private String mCityName;
 
     public WeatherCity(int cityId, @NonNull String cityName) {
         mCityId = cityId;

@@ -12,14 +12,23 @@
     <string name="title_activity_settings">Settings</string>
 
     <!-- Strings related to Settings -->
+    <string name="loading">Loading…</string>
 
     <!-- Example General settings -->
     <string name="pref_header_general">General</string>
+    <string name="temperature">Temperature</string>
+    <string name="pressure">Pressure</string>
+    <string name="humidity">Humidity</string>
+    <string name="wind_speed">Wind speed</string>
 
     <string name="pref_title_social_recommendations">Enable social recommendations</string>
     <string name="pref_description_social_recommendations">Recommendations for people to contact
         based on your message history
     </string>
+    <string name="f_temperature" formatted="false">%d\u2103</string>
+    <string name="f_pressure">%d bar</string>
+    <string name="f_humidity">%d%%</string>
+    <string name="f_wind_speed">%d m/s</string>
 
     <string name="pref_title_display_name">Display name</string>
     <string name="pref_default_display_name">John Smith</string>

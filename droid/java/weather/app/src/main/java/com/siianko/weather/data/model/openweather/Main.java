@@ -7,23 +7,35 @@ import java.io.Serializable;
 public class Main implements Serializable {
 
     @SerializedName("temp")
-    private double mTemp;
+    private double temp = 0;
 
     @SerializedName("pressure")
-    private double mPressure;
+    private double pressure = 0;
 
     @SerializedName("humidity")
-    private double mHumidity;
+    private double humidity = 0;
 
-    public int getTemp() {
-        return (int) mTemp;
+    public double getTemp() {
+        return temp;
     }
 
-    public int getPressure() {
-        return (int) mPressure;
+    public void setTemp(double temp) {
+        this.temp = temp;
     }
 
-    public int getHumidity() {
-        return (int) mHumidity;
+    public double getPressure() {
+        return pressure;
+    }
+
+    public void setPressure(double pressure) {
+        this.pressure = pressure;
+    }
+
+    public double getHumidity() {
+        return humidity;
+    }
+
+    public void setHumidity(double humidity) {
+        this.humidity = humidity;
     }
 }

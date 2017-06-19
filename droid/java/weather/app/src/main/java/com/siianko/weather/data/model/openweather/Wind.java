@@ -7,9 +7,13 @@ import java.io.Serializable;
 public class Wind implements Serializable {
 
     @SerializedName("speed")
-    private double mSpeed;
+    private double speed = 0;
 
-    public int getSpeed() {
-        return (int) mSpeed;
+    public double getSpeed() {
+        return speed;
+    }
+
+    public void setSpeed(double speed) {
+        this.speed = speed;
     }
 }

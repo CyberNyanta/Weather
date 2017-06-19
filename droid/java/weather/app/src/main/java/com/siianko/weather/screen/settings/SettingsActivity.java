@@ -1,4 +1,4 @@
-package com.siianko.weather.screen;
+package com.siianko.weather.screen.settings;
 
 import android.app.Activity;
 import android.os.Bundle;

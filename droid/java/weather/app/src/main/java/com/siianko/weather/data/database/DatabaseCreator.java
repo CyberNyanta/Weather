@@ -80,9 +80,7 @@ public class DatabaseCreator {
                 SqliteDatabase db = Room.databaseBuilder(context.getApplicationContext(),
                         SqliteDatabase.class, DATABASE_NAME).build();
 
-                // Add a delay to simulate a long-running operation
-                addDelay();
-
+                mDb = db;
                 return null;
             }
 
@@ -92,11 +90,5 @@ public class DatabaseCreator {
                 mIsDatabaseCreated.setValue(true);
             }
         }.execute(context.getApplicationContext());
-    }
-
-    private void addDelay() {
-        try {
-            Thread.sleep(4000);
-        } catch (InterruptedException ignored) {}
     }
 }
